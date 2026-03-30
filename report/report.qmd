@@ -1,9 +1,10 @@
 ---
 title: "Data Quality Analysis of GitHub AI Agent Commit Tracking"
+author: "Xianqing Zeng"
 date: ""
 format:
   pdf:
-    geometry: margin=0.9in
+    geometry: "top=0.8in, bottom=0.8in, left=0.9in, right=0.9in"
     fontsize: 10pt
     fig-pos: H
     number-sections: false
@@ -12,7 +13,7 @@ format:
       text: |
         \usepackage{titling}
         \setlength{\droptitle}{-3em}
-        \preauthor{}\author{}\postauthor{}
+        \preauthor{\begin{center}\normalsize}\postauthor{\par\end{center}\vspace{-1em}}
         \predate{}\date{}\postdate{}
         \setlength{\floatsep}{3pt}
         \setlength{\textfloatsep}{5pt}
@@ -20,6 +21,7 @@ format:
         \setlength{\abovecaptionskip}{2pt}
         \setlength{\belowcaptionskip}{1pt}
         \setlength{\parskip}{0pt}
+        \linespread{0.96}
   html:
     embed-resources: true
     toc: true
